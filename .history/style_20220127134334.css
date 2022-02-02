@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive');
+
+html {
+    scroll-behavior: smooth;
+   }
+   
+* 
+{
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+
+}
+
+
+
+.profile-infos {
+    width: 100%;  
+}
+
+.banner {
+    background:#fff;
+    height: flex;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+
+
+#signature {
+    font-family: 'Shadows Into Light', cursive;
+    color: #000000;
+    text-align: center; 
+    position: relative; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 75px; 
+}
+
+h1 {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 0 0 0;
+    font-weight: 450;
+}
+
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    margin: 0px 0px 0px 0px;
+    font-weight: 390;
+
+}
+
+h3 {
+    color: 	#FFFAFA;
+    font-weight: 100;
+    
+}
+
+
+.arthur {
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    margin: 15px 15px 15px 90px;
+}
+
+.description{
+    flex-direction: row;
+}
+
+.background-navbar{
+    background-image: url('images/justin-morgan-Hx-4TbpsoIw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 770px;
+    background-position: 50% 18%;
+    border: 0px;
+    background-attachment: fixed;
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+.iframe-container {
+    padding: 2.5% 29% 0 28.95%;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 22px;
+}
+
+
+iframe {
+    border-radius: 30px 30px 30px 30px;
+}
+
+ul  {
+    list-style-type:none;
+    color: #FFFAFA;
+    
+}
+
+
+.social-menu ul {
+    display: flex;
+}
+
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.social-menu ul li .fab {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+.social-menu ul li .fab:hover {
+    color: #FFF;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFFAFA;
+    text-align: center;
+    transition: 0.4s;
+    transform: translate(0,0px);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -5px);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #2c333b;
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #1ba1f6;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-image: linear-gradient(to top, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #25cc63;
+}
+
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0074b1;
+}
+
+#left-banner {
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+
+.carousel-item {
+    height:45rem;
+    background:#000000;
+    color: white;
+    position: relative;
+    
+ }
+ 
+ .container {
+    position:absolute;
+    bottom:0;left:0;left:0;right:0;padding-bottom:50px;
+    
+ }
+ 
+ .overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+ }
+
+
+#content_dark_background {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    position:relative;
+    background-image: url('images/matt-jones-9CPAjGVB378-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#content_media {
+    width: 100%;
+    height: 150px;
+    display:flex;
+    align-items: center;
+}
+
+.test {
+    float: left;
+    background-size: cover; 
+    background-position: center;
+}
+
+
+.about-me{
+    height: 200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* adicionado essa linha */
+}
+
+
+
+.titles{
+    width: 70%;
+    height: 40px;
+    position: relative;
+    left: 50%;
+    color:whitesmoke;
+    transform: translateX(-50%); /* adicionado essa linha */
+}
+
+
+
+
+
+#map { 
+    height: 75%; 
+    width: 45%; 
+    display: inline-block;
+    position:absolute;
+    top: 50px; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    opacity: 0.94;
+}
+
+
+#pikachu {
+    text-align: center;
+    display: block;
+}
+
+.content_pikachu {
+    background-color: #000;
+    width: 100%;
+    height: 283px;
+}
+
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    background: #1d1d25;
+    height: 150px;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-size: 20px
+}
+
+.footer li {
+    display: inline;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.footer ul {
+    text-align: center; 
+    position: relative; 
+    top: 40%;
+}
+
+.wrapper {
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+
+}
+
+#about-me-2 {
+    background-image: linear-gradient(to top,#018ABB 15%,#F5D371 36%,#ED7078,#c49991,#fff 97%); 
+    width:80%; 
+    padding-bottom: 50px; 
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.img-about-me-left {
+    float: left;
+    position:relative;
+    height: 100%;
+    overflow:hidden;
+    transform:translate(-0%,-0%);
+}
+
+.img-about-me-right {
+    float: right;
+    position:relative;
+    height: 100%;
+    overflow:hidden;
+    transform:translate(-0%,-0%);
+}
+
+
+
+div span {
+    background: rgba(51, 170, 51, .4)
+}
+
+.row {
+    margin-left: 0px;
+}
+
