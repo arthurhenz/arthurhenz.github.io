@@ -477,6 +477,10 @@ a {
         
     }
 
+    .spacing_maybe {
+        padding-bottom: 10px;
+    }
+
 }
 
 .h1_carousel {
