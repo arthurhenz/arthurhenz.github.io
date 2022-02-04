@@ -99,10 +99,11 @@
          <div class="carousel-item active" data-interval="5000">
 
             <div class="overlay-image" style="background-image:url(images/nao_oficial_2.png); filter: blur(1px);"></div>
-            <div class = "container" style = "margin-bottom: 40px; height : 40%; background: rgba(0, 0, 0, .40);border-radius: 8px">
-               <h1 class = "h1_carousel" style = "padding-bottom: 10px;padding-top: -10px; margin-top: 50px;">Chloropleth map using public data</h1>
-               <p class = "p_carousel">I created this tool in order to plot a map containing all cities from Rio Grande do Sul state with  2019 <br>demographic informations of each city.</p>
-               <ul class = "ul-carousel" style = "float: right; list-style-type: disc;" >
+            <div class = "container" style = "margin-bottom: 40px; height : 35%; background: rgba(0, 0, 0, .35);border-radius: 8px">
+               <h1 class = "h1_carousel" style = "padding-bottom: 5px;padding-top: 10px; ">Chloropleth map using public data</h1>
+               <div class="parent">
+               <p class = "p_carousel child">I created this tool in order to plot a map containing all cities from Rio Grande do Sul state with  2019 demographic informations of each city.</p>
+               <ul class = "ul-carousel child" style = "padding-left: 40px;float: right; list-style-type: disc;" >
                   <li>Homicide rate</li>
                   <li>Theft</li>
                   <li>Vehicle theft</li>
@@ -113,26 +114,28 @@
                </ul>
             </div>
          </div>
+         </div>
          <div class="carousel-item" data-interval="5000">
             <div class="overlay-image" style="background-image:url(images/peakvis.png); filter: blur(1px);"></div>
-            <div class = "container" style = "margin-bottom: 40px; height : 40%; background: rgba(0, 0, 0, .40);border-radius: 8px">
-               <h1 class = "h1_carousel" style = "padding-bottom: 10px;padding-top: 10px;">Face Recognition</h1>
-               <p class = "p_carousel">On my scientific initiation scholarship, I created a Python script that collects the number  of occurrences of each person in a video, and displays a couple charts on a webpage made with HTML/CSS/JavaScript and Plotly. Some features:</p>
-               <ul class = "ul-carousel" style = "float: right; list-style-type: disc;" >
+            <div class = "container" style = "padding-bottom: 20px!important;margin-bottom: 40px!important; height : 30%; background: rgba(0, 0, 0, .35);border-radius: 8px">
+               <h1 class = "h1_carousel" style = "padding-bottom: 5px;padding-top: 10px;">Face Recognition</h1>
+               <div class="parent">
+               <p class = "p_carousel child">On my scientific initiation scholarship, I created a Python script that collects the number  of occurrences of each person in a video, and displays a couple charts on a webpage made with HTML/CSS/JavaScript and Plotly. Some features:</p>
+               <ul class = "ul-carousel child" style = "padding-left: 40px; float: right; list-style-type: disc;" >
                   <li>Number of faces to be considered </li>
                   <li>Slider that sets the number <br>of minutes to take into accout</li>
                   <li>Three types of chart to make <br> the analysis clear</li>
                   <li>A video that guides the analysis</li>
-
                </ul>
             </div>
          </div>
+         </div>
          <div class="carousel-item" data-interval="5000">
-            <div class="overlay-image" style="background-image:url(images/appoio.png); filter: blur(1px);"></div>
-            <div class = "container" style = "padding-bottom: 0px!important; margin-bottom: 40px; background: rgba(0, 0, 0, .40); border-radius: 8px;">
+            <div class="overlay-image" style="background-image:url(images/appoio.png); filter: blur(1px);" onclick = "openTabAppoio()"></div>
+            <div id = "appoioText" class = "container" style = "background: rgba(0, 0, 0, .35); border-radius: 8px;">
                <span>
-                  <h1 class = "h1_carousel" style = "padding-bottom: 10px;padding-top: 10px;">Appoio Application</h1>
-                  <p class = "p_carousel">As my first project, Appoio was developed through AGES (Experimental Software Engineering Agency). It is focused in helping elder people to understand the mechanism of mainstream apps, like WhatsApp, Facebook and Google.</p>
+                  <h1 class = "h1_carousel" style = "padding-bottom: 5px;padding-top: 10px;">Appoio Application</h1>
+                  <p class = "p_carousel">As my first project, Appoio was developed through AGES (Experimental Software Engineering Agency). It is focused in helping elder people to understand the mechanism of mainstream apps, like WhatsApp, Facebook and Google.<br>Click anywhere to open this project.</p>
                </span>
             </div>
          </div>
@@ -314,7 +317,9 @@
 		}
 	}); 
 
-
+   function openTabAppoio(){
+      window.open("http://www.ages.pucrs.br/lista-de-projetos-2020-2/appoio/", "_blank")
+   }
 
 
       </script>
